@@ -6,7 +6,7 @@ public class RockPaperScissor {
         char exitchoice='Y';
         Scanner sc = new Scanner(System.in);
         Random rn = new Random();
-        String[] choices = new String[]{"","Rock", "Paper", "Scissors"};
+        String[] choices = {"","Rock", "Paper", "Scissors"};
         // Rock = 1, Paper = 2, Scissor = 3
             System.out.print("\t\tRock Paper Scissors Game!\n\n\nEnter your name: ");
             String p1_name = sc.nextLine();
